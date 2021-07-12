@@ -13,12 +13,12 @@ namespace hub
            Console.WriteLine("identify if you are a  Fulltime student or Part-time student:");
              input = Console.ReadLine();
              if (input.Substring(0,4).ToLower().Contains("full"))
-        {
+          {
            Console.WriteLine("what is your course of study in fulltime:");
            course = Console.ReadLine();
            Console.WriteLine(course+" it's a good course.");
             //   break;
-        }
+          }
 
             if (input.Substring(0,4).ToLower().Contains("part"))
           {
